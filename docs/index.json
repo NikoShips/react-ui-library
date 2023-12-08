@@ -1,0 +1,39 @@
+{
+  "v": 4,
+  "entries": {
+    "getting-started--docs": {
+      "id": "getting-started--docs",
+      "title": "Getting started",
+      "name": "Docs",
+      "importPath": "./src/Index.mdx",
+      "storiesImports": [],
+      "type": "docs",
+      "tags": ["unattached-mdx", "docs"]
+    },
+    "example-democomponent--docs": {
+      "id": "example-democomponent--docs",
+      "title": "Example/DemoComponent",
+      "name": "Docs",
+      "importPath": "./src/components/DemoComponent/DemoComponent.stories.tsx",
+      "type": "docs",
+      "tags": ["autodocs", "docs"],
+      "storiesImports": []
+    },
+    "example-democomponent--default": {
+      "type": "story",
+      "id": "example-democomponent--default",
+      "name": "Default",
+      "title": "Example/DemoComponent",
+      "importPath": "./src/components/DemoComponent/DemoComponent.stories.tsx",
+      "tags": ["autodocs", "story"]
+    },
+    "example-democomponent--with-initial-count": {
+      "type": "story",
+      "id": "example-democomponent--with-initial-count",
+      "name": "With Initial Count",
+      "title": "Example/DemoComponent",
+      "importPath": "./src/components/DemoComponent/DemoComponent.stories.tsx",
+      "tags": ["autodocs", "story"]
+    }
+  }
+}
